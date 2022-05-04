@@ -1,0 +1,77 @@
+@media (orientation: landscape) {
+    html {
+        height: 100vh;
+    }
+    body {
+        background-image: url('../images/rainbow.gif');
+        color: white;
+    }
+    h1 {
+        margin-top: 5%;
+    }
+    a {
+        background-color: #aaaaaa;
+        padding: 0.5em;
+        border: gray 2px solid;
+    }
+
+    #message {
+        animation: jiggle 0.25s linear infinite;
+        background-color:blueviolet;
+        width: 50vw;
+        margin: auto;
+        text-align: center;
+    }
+    #felix {
+        margin-top: 10%;
+    }
+}
+@media (orientation: portrait) {
+    html {
+        height: 100vh;
+    }
+    body {
+        background-image: url('../images/rainbow.gif');
+        color: white;
+    }
+    h1 {
+        margin-top: 5%;
+    }
+    a {
+        background-color: #aaaaaa;
+        padding: 0.5em;
+        border: gray 2px solid;
+    }
+
+    #message {
+        animation: jiggle 0.25s linear infinite;
+        background-color:blueviolet;
+        width: 50%;
+        font-size: 2em;
+        text-align: center;
+    }
+    #felix {
+        margin-top: 60%;
+    }
+}
+
+@keyframes jiggle {
+    0% {
+        transform: translateY(0%);
+    }
+    25% {
+        transform: translateY(-20%);
+    }
+    75% {
+        transform: translateY(20%);
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}

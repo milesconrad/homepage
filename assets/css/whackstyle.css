@@ -1,0 +1,82 @@
+body {
+    background-image: url("../images/cashapp.png");
+}
+
+@media (orientation: landscape) {
+    #cashapp {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        font-size: 2.5em;
+
+        background-color: #0ac149;
+        padding: 0.1em;
+        border: #ff0000 5px solid;
+
+        position: absolute;
+        left: 80%;
+        top: 5%;
+        animation: fieldtrip 1s linear infinite;
+        z-index: 1;
+    }
+    #cashapp:hover {
+        background-color: #08702d;
+    }
+
+    @keyframes fieldtrip {
+        25% {
+            top: 70%;
+            left: 80%;
+        }
+        50% {
+            top: 70%;
+            left: 5%;
+        }
+        75% {
+            top: 5%;
+            left: 5%;
+        }
+        100% {
+            top: 5%;
+            left: 80%;
+        }
+    }
+}
+
+@media (orientation: portrait) {
+    #cashapp {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        font-size: 6em;
+
+        background-color: #0ac149;
+        padding: 0.1em;
+        border: #ff0000 5px solid;
+
+        position: absolute;
+        left: 60%;
+        top: 5%;
+        animation: fieldtrip 1s linear infinite;
+        z-index: 1;
+    }
+
+    @keyframes fieldtrip {
+        25% {
+            top: 70%;
+            left: 60%;
+        }
+        50% {
+            top: 70%;
+            left: 5%;
+        }
+        75% {
+            top: 5%;
+            left: 5%;
+        }
+        100% {
+            top: 5%;
+            left: 60%;
+        }
+    }
+}

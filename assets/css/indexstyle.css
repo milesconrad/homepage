@@ -1,0 +1,160 @@
+@media (orientation: landscape) {
+    body {
+        background-image: linear-gradient(90deg, #ff0066, #00cc00);
+    }
+    audio {
+        margin-left: 80%;
+    }
+
+    #miles {
+        position: absolute;
+        left: 2%;
+        top: 2%;
+        width: 20%;
+        height: 40%;
+    }
+    #zander {
+        position: absolute;
+        width: 40%;
+        height: 30%;
+        top: 70%;
+    }
+    #felix {
+        position: absolute;
+        width: 30%;
+        left: 70%;
+        top: -5%;
+        z-index: -1;
+    }
+
+    #title {
+        margin: auto;
+        text-align: center;
+        margin-top: 2%;
+        width: 50%;
+        background: linear-gradient(90deg, #0000ff, #00ff00);
+        padding: 0.5em;
+        animation: rotate 10s linear infinite;
+    }
+    #cashapp {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        font-size: 2.5em;
+
+        background-color: #0ac149;
+        padding: 0.1em;
+        border: #ff0000 5px solid;
+
+        margin-left: 60%;
+    }
+    #cashapp:hover {
+        background-color: #08702d;
+    }
+    #tetris {
+        width: 30vw;
+        height: 40vh;
+        margin: auto;
+        margin-top: 5%;
+        display: block;
+        transform: scale(1.25);
+    }
+    #pagemenu {
+        position: absolute;
+        left: 70%;
+        top: 50%;
+    }
+    #pagemenu a {
+        color: white;
+        font-size: 2em;
+        padding: 0.75em;
+        text-decoration: underline;
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        background-image: linear-gradient(90deg, #ff0066, #00cc00);
+    }
+    audio {
+        margin-top: 30%;
+        margin-left: 50%;
+        transform: scale(3);
+    }
+
+    #miles {
+        position: absolute;
+        left: 2%;
+        top: -10%;
+        width: 40%;
+        height: 40%;
+    }
+    #zander {
+        position: absolute;
+        width: 40%;
+        height: 30%;
+        top: 70%;
+    }
+    #felix {
+        position: absolute;
+        width: 70%;
+        left: 30%;
+        z-index: -1;
+    }
+    #title {
+        font-size: 7em;
+        margin: auto;
+        text-align: center;
+        margin-top: 2%;
+        width: 80%;
+        background: linear-gradient(90deg, #0000ff, #00ff00);
+        padding: 0.5em;
+        animation: rotate 10s linear infinite;
+    }
+    #cashapp {
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+        font-size: 8em;
+
+        background-color: #0ac149;
+        padding: 0.1em;
+        border: #ff0000 5px solid;
+
+        position: absolute;
+        top: 25%;
+        z-index: 1;
+    }
+    #tetris {
+        width: 30vw;
+        height: 10vh;
+        margin: auto;
+        margin-top: 50%;
+        display: block;
+        transform: scale(3);
+    }
+    #pagemenu {
+        position: absolute;
+        left: 20%;
+        top: 70%;
+    }
+    #pagemenu a {
+        color: white;
+        font-size: 5em;
+        padding: 1em;
+        text-decoration: underline;
+    }
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: scalex(100%) rotate(0deg);
+    }
+    25% {
+        transform: scalex(50%) rotate(20deg);
+    }
+    75% {
+        transform: scalex(30%) rotate(-20deg);
+    }
+}
